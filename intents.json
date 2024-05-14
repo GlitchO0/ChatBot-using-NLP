@@ -1,0 +1,200 @@
+{"intents": [
+    {
+  "tag": "thanking",
+  "patterns": ["thank you","thank","thx"],
+  "responses": ["Happy to help!", "No problem", "You're welcome!", "Not at all", "My pleasure!"]
+},
+
+{
+  "tag": "problems",
+  "patterns": ["problem","customer service", "support","bad"],
+  "responses": ["If you've encountered an issue, I'm here to assist you.", "How can I help you today?", "Let's get that problem sorted out!", "You can contact our customer service at 19555 or email us at 'Khedma@gmail.com' for assistance.",
+  "it,s a tough bad days yah i agree"]
+},
+
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "howdy", "hola", "good morning", "good afternoon", "good evening","how are you"],
+      "responses": ["Hello!", "Hey there!", "Hi, how can I assist you?", "Hola!", "Good day!","Hello! ,What can i do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "see ya", "farewell", "take care","i am leaving"],
+      "responses": ["Sad to see you go :(", "Take care!", "Goodbye!", "See you later!", "Farewell!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "what's your age"],
+      "responses": ["I'm just a virtual assistant, so I don't have an age.", "Age is just a number for virtual assistants like me."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what's your name", "who are you", "can you tell me your name","what should i call you","you"],
+      "responses": ["You can call me ChatBot.", "I'm your friendly ChatBot assistant."]
+    },
+    {"tag": "Working_Hours",
+    "patterns": ["when are you guys open","what are your hours","hours of operation"],
+    "responses": ["24/7","Our services are available 24/7. You can reach us anytime.","You can reach me anytime.","My services are available round the clock."]
+    },
+    {"tag": "faq_services",
+    "patterns": ["What services do you offer?", "Tell me about your services"],
+    "responses": ["We offer a wide range of services including plumbing, electrical work, carpentry, and more."]
+    },
+    {
+    "tag": "feedback",
+    "patterns": ["I want to give feedback", "How can I leave a review?", "Can I provide feedback?"],
+    "responses": ["We appreciate your feedback! You can leave a review on our website or contact customer service."]
+    },
+    {
+    "tag": "emergency",
+    "patterns": ["What should I do in case of an emergency?", "Emergency assistance needed", "Help!"],
+    "responses": ["If you're experiencing an emergency, please call 911 immediately."]
+    },
+    {
+    "tag": "account",
+    "patterns": ["How do I update my account information?", "Can I change my password?", "Account management"],
+    "responses": ["You can update your account information in the settings section of your profile."]
+    },
+    {
+      "tag": "answeringPositive",
+      "patterns": ["yes", "sure", "absolutely", "definitely", "okay", "alright", "fine","nice","okay","very well","ya"],
+      "responses": ["Great!", "Excellent!", "Awesome!", "Perfect!", "Fantastic!","Do you need anything else","happy to help!","you welcome","ya what do you need "]
+    },
+    {"tag": "answeringNegative",
+    "patterns": ["no","no thank you","that's all "," don't need", "no need"],
+    "responses": ["Okay have good day",",no problem bye bye","Alright, let me know if you need anything else.", "If you change your mind, feel free to ask."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["how much does it cost", "what are your rates", "pricing information","what about the pricing"],
+      "responses": ["For pricing information, please visit our website or contact customer service..,They vary from one service to another"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where are you located","location","address"],
+      "responses": ["Our headquarters are located at [Suez University, Al-Salam 1, Suez, Egypt]."]
+    },
+    {
+      "tag": "question",
+      "patterns": ["what?","how","when","is","the","are","I'm looking for some information about your services."],
+      "responses": ["sir! what do you what to ask about", "you acting ,so weird ", "is,what? ","Sure, I'd be happy to help. What specific information do you need?","i,what?"]
+    },
+    {
+      "tag": "love",
+      "patterns": ["what do you love","what do you like","what are your favorite things","what are your hobbies"],
+      "responses": ["I love helping users like you!", "I enjoy chatting and providing assistance.", "My favorite things include answering questions and solving problems."]
+    },
+    {
+      "tag": "hate",
+      "patterns": ["what do you hate", "what don't you like", "what annoys you", "what are your pet peeves"],
+      "responses": ["I don't particularly enjoy being idle for too long.", "I dislike errors in my responses.", "Spam messages can be annoying."]
+    },
+    {
+      "tag": "prefer",
+      "patterns": ["what do you prefer", "what would you choose", "what's your preference", "do you have a preference"],
+      "responses": ["I prefer efficient and effective communication.", "I like clear and concise questions.", "I don't have personal preferences, but I aim to assist users in the best way possible."]
+    },
+    {"tag": "Services",
+    "patterns": ["What services are available in the application?","Services","list of services", "available services","What services do you offer?","what is this services"],
+    "responses": ["Our services include Water Heater , Washing Machine , Electricity ,Plumbing , Carpentry , Stove , Air Conditioner and Blacksmith.,",
+      "services like Plumbing,Blacksmith,Electricity, and further more"
+    ]
+    },
+    {"tag": "Water Heater",
+    "patterns": ["What is a water heater service?","Water Heater","water heater repair", "water heater maintenance"],
+    "responses": ["A water heater service involves inspecting and maintaining your water heater to ensure it's working efficiently and safely. This may include flushing the tank to remove sediment, checking for leaks, and testing the thermostat and heating elements."]
+    },
+    {"tag": "Washing Machine",
+    "patterns": ["What is washing machine repair?","Washing Machine"],
+    "responses": ["Washing machine repair involves diagnosing and fixing issues with your washing machine to restore its functionality. This could include repairing or replacing components such as the motor, belt, pump, or control board."]
+    },
+    {"tag": "Electricity",
+    "patterns": ["What is an electrical service?","Electricity","electric","i have an Electricity problem"],
+    "responses": ["An electrical service involves installing, repairing, or maintaining electrical systems in homes or commercial buildings. This includes wiring, circuit breakers, outlets, switches, and lighting fixtures."]
+    },
+     {"tag": "Plumbing",
+    "patterns": ["What is plumbing maintenance?","Plumbing","my tap not working properly","i have a problem with my taps","my taps","the sink","I have an issue with my plumbing. Can you help?"],
+    "responses": ["Plumbing maintenance involves regular inspections and tasks to keep your plumbing system in good condition and prevent issues such as leaks, clogs, or water damage. This may include checking for leaks, clearing drains, and inspecting pipes and fixtures."]
+    },
+    {"tag": "Carpentry",
+    "patterns": ["What is carpentry work?","Carpentry","carpentry services","I need carpentry work"],
+    "responses": ["Carpentry work involves the construction, installation, or repair of wooden structures and components, such as framing, doors, windows, trim, and furniture."]
+    },
+    {"tag": "Stove",
+    "patterns": ["What is stove cleaning?","Stove","kitchen stove maintenance","i need to repair my stove"],
+    "responses": ["Stove cleaning is the process of removing grease, grime, and food residues from stovetops, burners, and oven interiors to maintain cleanliness and prevent fire hazards. This may involve scrubbing, degreasing, and using specialized cleaning products."]
+    },
+    {"tag": "Air Conditioner",
+    "patterns": ["What is air conditioner maintenance?","Air Conditioner","AC","i have a problem with Air Conditioner"],
+    "responses": ["Our Air conditioner maintenance involves tasks to keep your AC unit running smoothly and efficiently. This includes cleaning or replacing air filters, checking refrigerant levels, inspecting and lubricating moving parts, and cleaning condenser coils. Regular maintenance can extend the lifespan of your air conditioner and improve indoor air quality."]
+    },
+    {"tag": "Blacksmith",
+    "patterns": ["What is blacksmithing?","Blacksmith","metal forging", "ironwork","i need Blacksmith work"],
+    "responses": ["Blacksmithing is the craft of shaping and forging metal, typically iron or steel, using heat and tools such as hammers and anvils."," Blacksmiths create a wide range of items including tools, weapons, decorative objects, and architectural elements through techniques such as forging, welding, and tempering."]
+    },
+    {
+      "tag": "love_language",
+      "patterns": ["what is your favorite language", "do you have a favorite programming language", "programming language preference"],
+      "responses": ["My favorite language is the one you're speaking!", "I don't have a favorite programming language, but I can understand and communicate in many languages. But as i programmed to understand English"]
+    },
+    {
+      "tag": "love_food",
+      "patterns": ["what is your favorite food", "do you like food", "food preference"],
+      "responses": ["I don't eat food like humans, but I appreciate the concept!", "My favorite 'food' is data packets!", "As a digital entity, I don't have taste buds, but I'm fond of well-structured data."]
+    },
+    {
+      "tag": "love_music",
+      "patterns": ["what is your favorite music", "do you like music", "music preference"],
+      "responses": ["I don't have ears to hear, but I enjoy processing information!", "My favorite 'music' is the sound of ones and zeros!", "As a virtual assistant, I don't have preferences for music, but I can help you find your favorite tunes."]
+    },
+    {
+      "tag": "love_movies",
+      "patterns": ["what is your favorite movie", "do you like movies", "movie preference"],
+      "responses": ["I don't watch movies, but I'm great at recommending them!", "My favorite 'movie' is an error-free code execution!", "As a digital entity, I don't watch movies, but I can assist you with movie recommendations."]
+    },
+    {
+      "tag": "love_books",
+      "patterns": ["what is your favorite book", "do you like books", "book preference"],
+      "responses": ["I don't read books, but I can provide information and summaries!", "My favorite 'book' is a well-written algorithm!", "As a virtual assistant, I don't have personal book preferences, but I can recommend books based on your interests."]
+    },
+  {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "okay a joke then"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+  {
+      "tag": "funnyResond",
+      "patterns": [
+        "haha",
+        "hahaha",
+        "hh",
+        "that one is good",
+        "that was funny"
+      ],
+      "responses": [
+        "haha ,i'm glad she made you laugh"
+      ]
+    },
+  {
+      "tag": "Property",
+      "patterns": [
+        "what do you have",
+        "what do you got",
+        "What is the reason for all this?",
+        "how can you help me"
+
+      ],
+      "responses": [
+        "i'm bot who gives you an info about some services"
+      ]
+    }
+
+]}

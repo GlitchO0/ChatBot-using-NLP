@@ -13,7 +13,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 with open('augmented_intents.json', 'r') as f:
     intents = json.load(f)
 
-FILE = "data.pt"
+FILE = "data.pth"
 data = torch.load(FILE)
 input_size = data["input_size"]
 hidden_size1 = data["hidden_size1"]

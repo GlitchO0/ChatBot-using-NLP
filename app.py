@@ -4,6 +4,8 @@ import json
 import torch
 from model import NeuralNet
 from nltk_utlis import tokenize, bag_pf_words
+import nltk
+nltk.download('punkt')
 import difflib
 
 app = Flask(__name__)

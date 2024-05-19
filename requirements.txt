@@ -4,3 +4,5 @@ numpy
 scikit-learn
 torch
 flask
+nltk.download('punkt')
+

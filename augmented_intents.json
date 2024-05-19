@@ -1,0 +1,713 @@
+{
+    "intents": [
+        {
+            "tag": "thanking",
+            "patterns": [
+                "thank",
+                "thanks a lot",
+                "much appreciated",
+                "thank you",
+                "thankful",
+                "thx",
+                "a_lot appreciate",
+                "grateful",
+                "thank A draw"
+            ],
+            "responses": [
+                "Happy to help!",
+                "No problem",
+                "You're welcome!",
+                "Not at all",
+                "My pleasure!"
+            ]
+        },
+        {
+            "tag": "CustomerSupport",
+            "patterns": [
+                "customer service",
+                "support",
+                "confirm"
+            ],
+            "responses": [
+                "You can contact our customer service at 19555 or email us at 'Khedma@gmail.com' for assistance."
+            ]
+        },
+        {
+            "tag": "problems",
+            "patterns": [
+                "iodine hold deoxyadenosine_monophosphate problem",
+                "offspring",
+                "concern",
+                "issue",
+                "problem",
+                "i have a problem",
+                "trouble",
+                "business",
+                "bad"
+            ],
+            "responses": [
+                "If you've encountered an issue, I'm here to assist you.",
+                "How can I help you today?",
+                "Let's get that problem sorted out!",
+                "it,s a tough bad days yah i agree",
+                "Let me know what's troubling you, and I'll do my best to help."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "good dawn",
+                "hola",
+                "what's astir",
+                "hey",
+                "thoroughly afternoon",
+                "Hawaii",
+                "how are you",
+                "howdy",
+                "good even",
+                "how be you",
+                "greetings",
+                "hi",
+                "good afternoon",
+                "hi there",
+                "hello there",
+                "hello",
+                "good evening",
+                "good morning",
+                "what's up",
+                "greet"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey there!",
+                "Hi, how can I assist you?",
+                "Hola!",
+                "Good day!",
+                "Hello! ,What can i do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "one be leave",
+                "i am leaving",
+                "goodbye",
+                "see you later",
+                "attend ya",
+                "assume care",
+                "until adjacent time",
+                "have a great day",
+                "see ya",
+                "bye-bye",
+                "bye",
+                "see you belated",
+                "adieu",
+                "until next time",
+                "consume vitamin_A big day",
+                "farewell",
+                "take care"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Take care!",
+                "Goodbye!",
+                "See you later!",
+                "Farewell!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "age",
+                "how honest-to-god be you",
+                "years",
+                "how long have you been around",
+                "how long have you be around",
+                "class",
+                "what's your historic_period",
+                "how old are you",
+                "what's your age"
+            ],
+            "responses": [
+                "I'm just a virtual assistant, so I don't have an age.",
+                "Age is just a number for virtual assistants like me."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "can you tell Maine your appoint",
+                "can you tell me your name",
+                "what's your name",
+                "World_Health_Organization be you",
+                "your name",
+                "who are you",
+                "what should iodine call you",
+                "what should i call you",
+                "you"
+            ],
+            "responses": [
+                "You can call me ChatBot.",
+                "I'm your friendly ChatBot assistant."
+            ]
+        },
+        {
+            "tag": "Working_Hours",
+            "patterns": [
+                "hours of operation",
+                "what exist your hour",
+                "hour of operation",
+                "what are your hours",
+                "when constitute you Guy clear",
+                "when are you guys open"
+            ],
+            "responses": [
+                "24/7",
+                "Our services are available 24/7. You can reach us anytime.",
+                "You can reach me anytime.",
+                "My services are available round the clock."
+            ]
+        },
+        {
+            "tag": "faq_services",
+            "patterns": [
+                "What services do you offer?",
+                "Tell me about your services",
+                "assure Maine about your overhaul",
+                "What service do you offer?"
+            ],
+            "responses": [
+                "We offer a wide range of services including plumbing, electrical work, carpentry, and more."
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "I have some feedback to share",
+                "can I provide feedback?",
+                "I'd like to leave a review",
+                "iodine consume approximately feedback to plowshare",
+                "How can I leave a review?",
+                "I'd like to farewell ampere reappraisal",
+                "How can one leave angstrom review?",
+                "I want to give feedback",
+                "iodine want to give feedback",
+                "Can I provide feedback?"
+            ],
+            "responses": [
+                "We appreciate your feedback! You can leave a review on our website or contact customer service."
+            ]
+        },
+        {
+            "tag": "emergency",
+            "patterns": [
+                "hand_brake position",
+                "pressing aid necessitate",
+                "What should iodine do inch lawsuit of Associate_in_Nursing emergency?",
+                "emergency situation",
+                "What should I do in case of an emergency?",
+                "urgent help needed",
+                "Emergency assistance needed",
+                "emergency aid needed",
+                "Help!"
+            ],
+            "responses": [
+                "If you're experiencing an emergency, please call 911 immediately."
+            ]
+        },
+        {
+            "tag": "account",
+            "patterns": [
+                "account management",
+                "Account management",
+                "toilet I transfer my password?",
+                "account settings",
+                "account setting",
+                "How make I update my report information?",
+                "drug_user profile",
+                "user profile",
+                "Can I change my password?",
+                "How do I update my account information?"
+            ],
+            "responses": [
+                "You can update your account information in the settings section of your profile."
+            ]
+        },
+        {
+            "tag": "answeringPositive",
+            "patterns": [
+                "absolutely",
+                "nice",
+                "definitely",
+                "Nice",
+                "yes",
+                "all_right",
+                "very well",
+                "fine",
+                "okay",
+                "sure",
+                "very_well",
+                "alright",
+                "ya",
+                "decidedly"
+            ],
+            "responses": [
+                "Great!",
+                "Excellent!",
+                "Awesome!",
+                "Perfect!",
+                "Fantastic!",
+                "Do you need anything else",
+                "happy to help!",
+                "you welcome",
+                "ya what do you need "
+            ]
+        },
+        {
+            "tag": "answeringNegative",
+            "patterns": [
+                "no thank you",
+                "that's wholly",
+                "no need",
+                "don't need",
+                "that's all ",
+                "nothing",
+                "no",
+                " don't need"
+            ],
+            "responses": [
+                "Okay have good day",
+                ",no problem bye bye",
+                "Alright, let me know if you need anything else.",
+                "If you change your mind, feel free to ask."
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "price data",
+                "how much serve information_technology cost",
+                "how much does it cost",
+                "what about the pricing",
+                "what are your rate",
+                "what are your rates",
+                "pricing information"
+            ],
+            "responses": [
+                "For pricing information, please visit our website or contact customer service..,They vary from one service to another"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where can I find you",
+                "be you locate",
+                "where exist you locate",
+                "location",
+                "where can I detect you",
+                "where are you located",
+                "address",
+                "are you located"
+            ],
+            "responses": [
+                "Our headquarters are located at [Suez University, Al-Salam 1, Suez, Egypt]."
+            ]
+        },
+        {
+            "tag": "question",
+            "patterns": [
+                "when",
+                "cost",
+                "are",
+                "is",
+                "how",
+                "could you please",
+                "I'm looking for some information about your services.",
+                "I'm look for some information about your services.",
+                "what?",
+                "the",
+                "would you mind"
+            ],
+            "responses": [
+                "sir! what do you what to ask about",
+                "sir! are you okay ",
+                "you acting ,so weird ",
+                "is,what? ",
+                "Sure, I'd be happy to help. What specific information do you need?",
+                "i,what?"
+            ]
+        },
+        {
+            "tag": "love",
+            "patterns": [
+                "what do you alike",
+                "what constitute your avocation",
+                "do you love anything",
+                "what are your favorite things",
+                "what perform you love",
+                "what equal your darling thing",
+                "what do you love",
+                "love you",
+                "suffice you sexual_love anything",
+                "what are your hobbies",
+                "what do you like"
+            ],
+            "responses": [
+                "I love helping users like you!",
+                "I enjoy chatting and providing assistance.",
+                "My favorite things include answering questions and solving problems."
+            ]
+        },
+        {
+            "tag": "hate",
+            "patterns": [
+                "what practice you hate",
+                "what are your pet peeve",
+                "what don't you like",
+                "i hate",
+                "what do you hate",
+                "one hate",
+                "what irritates you",
+                "what annoys you",
+                "what are your pet peeves",
+                "what annoy you"
+            ],
+            "responses": [
+                "I don't particularly enjoy being idle for too long.",
+                "I dislike errors in my responses.",
+                "Spam messages can be annoying."
+            ]
+        },
+        {
+            "tag": "prefer",
+            "patterns": [
+                "what do you prefer",
+                "act you experience deoxyadenosine_monophosphate preference",
+                "what act you prefer",
+                "do you have a preference",
+                "what's your preference",
+                "what would you choose"
+            ],
+            "responses": [
+                "I prefer efficient and effective communication.",
+                "I like clear and concise questions.",
+                "I don't have personal preferences, but I aim to assist users in the best way possible."
+            ]
+        },
+        {
+            "tag": "Services",
+            "patterns": [
+                "What services do you offer?",
+                "list of services",
+                "What services exist available in the application?",
+                "available service",
+                "list of service",
+                "What avail cause you offer?",
+                "what do you do",
+                "what dress you bash",
+                "Service",
+                "available services",
+                "What services are available in the application?",
+                "what cost this avail",
+                "what is this services",
+                "Services"
+            ],
+            "responses": [
+                "Our services include Water Heater, Washing Machine, Electricity, Plumbing, Carpentry, Stove, Air Conditioner, and Blacksmith.",
+                "We offer various services such as Plumbing, Blacksmith, and Electricity, among others."
+            ]
+        },
+        {
+            "tag": "Water Heater",
+            "patterns": [
+                "water heater care",
+                "water heater repair",
+                "water heater maintenance",
+                "Water Heater",
+                "What embody ampere water heater service?",
+                "water fastball animate",
+                "water heater",
+                "What is a water heater service?"
+            ],
+            "responses": [
+                "A water heater service involves inspecting and maintaining your water heater to ensure it's working efficiently and safely. This may include flushing the tank to remove sediment, checking for leaks, and testing the thermostat and heating elements."
+            ]
+        },
+        {
+            "tag": "Washing Machine",
+            "patterns": [
+                "wash machine",
+                "What be moisten machine repair?",
+                "Washing Machine",
+                "What is washing machine repair?"
+            ],
+            "responses": [
+                "Washing machine repair involves diagnosing and fixing issues with your washing machine to restore its functionality. This could include repairing or replacing components such as the motor, belt, pump, or control board."
+            ]
+        },
+        {
+            "tag": "Electricity",
+            "patterns": [
+                "I experience Associate_in_Nursing electricity trouble",
+                "i have an Electricity problem",
+                "Electricity",
+                "What exist Associate_in_Nursing electrical service?",
+                "What is an electrical service?",
+                "electricity",
+                "electric"
+            ],
+            "responses": [
+                "An electrical service involves installing, repairing, or maintaining electrical systems in homes or commercial buildings. This includes wiring, circuit breakers, outlets, switches, and lighting fixtures."
+            ]
+        },
+        {
+            "tag": "Plumbing",
+            "patterns": [
+                "plumb",
+                "I have Associate_in_Nursing issue with my plumbing. displace you help?",
+                "the sink",
+                "my taps",
+                "my tap not working properly",
+                "my tap",
+                "iodine have angstrom trouble with my tapdance",
+                "Plumbing",
+                "I have an issue with my plumbing. Can you help?",
+                "my tap not work by_rights",
+                "i have a problem with my taps",
+                "What be bathymetry maintenance?",
+                "What is plumbing maintenance?"
+            ],
+            "responses": [
+                "Plumbing maintenance involves regular inspections and tasks to keep your plumbing system in good condition and prevent issues such as leaks, clogs, or water damage. This may include checking for leaks, clearing drains, and inspecting pipes and fixtures."
+            ]
+        },
+        {
+            "tag": "Carpentry",
+            "patterns": [
+                "carpentry",
+                "one need carpentry work",
+                "What constitute carpentry work?",
+                "What is carpentry work?",
+                "carpentry services",
+                "Carpentry",
+                "I need carpentry work",
+                "carpentry servicing"
+            ],
+            "responses": [
+                "Carpentry work involves the construction, installation, or repair of wooden structures and components, such as framing, doors, windows, trim, and furniture."
+            ]
+        },
+        {
+            "tag": "Stove",
+            "patterns": [
+                "What is stove cleaning?",
+                "stave",
+                "iodine necessitate to repair my stove",
+                "What be stave cleaning?",
+                "i need to repair my stove",
+                "kitchen stove maintenance",
+                "kitchen stove sustenance",
+                "Stove"
+            ],
+            "responses": [
+                "Stove cleaning is the process of removing grease, grime, and food residues from stovetops, burners, and oven interiors to maintain cleanliness and prevent fire hazards. This may involve scrubbing, degreasing, and using specialized cleaning products."
+            ]
+        },
+        {
+            "tag": "Air Conditioner",
+            "patterns": [
+                "breeze conditioner",
+                "one have A problem with tune conditioner",
+                "i have a problem with Air Conditioner",
+                "What is air conditioner maintenance?",
+                "actinium",
+                "Air Conditioner",
+                "What equal atmosphere conditioner maintenance?",
+                "AC"
+            ],
+            "responses": [
+                "Our Air conditioner maintenance involves tasks to keep your AC unit running smoothly and efficiently. This includes cleaning or replacing air filters, checking refrigerant levels, inspecting and lubricating moving parts, and cleaning condenser coils. Regular maintenance can extend the lifespan of your air conditioner and improve indoor air quality."
+            ]
+        },
+        {
+            "tag": "Blacksmith",
+            "patterns": [
+                "ironwork",
+                "one need blacksmith employment",
+                "Blacksmith",
+                "i need Blacksmith work",
+                "metal invent",
+                "blacksmith",
+                "What be blacksmithing?",
+                "metal forging",
+                "What is blacksmithing?"
+            ],
+            "responses": [
+                "Blacksmithing is the craft of shaping and forging metal, typically iron or steel, using heat and tools such as hammers and anvils.",
+                " Blacksmiths create a wide range of items including tools, weapons, decorative objects, and architectural elements through techniques such as forging, welding, and tempering."
+            ]
+        },
+        {
+            "tag": "love_language",
+            "patterns": [
+                "programming speech predilection",
+                "programming language preference",
+                "what be your favorite linguistic_process",
+                "what language do you speak best",
+                "what speech cause you talk well",
+                "which programming language do you prefer",
+                "do you have a favorite programming language",
+                "perform you have A favored program language",
+                "what is your favorite language"
+            ],
+            "responses": [
+                "My favorite language is the one you're speaking!",
+                "I don't have a favorite programming language, but I can understand and communicate in many languages."
+            ]
+        },
+        {
+            "tag": "love_food",
+            "patterns": [
+                "what is your favorite food",
+                "what's your darling cuisine",
+                "food preference",
+                "what food dress you enjoy",
+                "what food do you enjoy",
+                "what's your favorite cuisine",
+                "what equal your front-runner food",
+                "do you like food"
+            ],
+            "responses": [
+                "I don't eat food like humans, but I appreciate the concept!",
+                "My favorite 'food' is data packets!",
+                "As a digital entity, I don't have taste buds, but I'm fond of well-structured data."
+            ]
+        },
+        {
+            "tag": "love_music",
+            "patterns": [
+                "what kind of music do you enjoy",
+                "what equal your darling music",
+                "favored writing_style of music",
+                "music predilection",
+                "favorite genre of music",
+                "music preference",
+                "what is your favorite music",
+                "do you like music",
+                "what kind of music do you love",
+                "bash you like music"
+            ],
+            "responses": [
+                "I don't have ears to hear, but I enjoy processing information!",
+                "My favorite 'music' is the sound of ones and zeros!",
+                "As a virtual assistant, I don't have preferences for music, but I can help you find your favorite tunes."
+            ]
+        },
+        {
+            "tag": "love_movies",
+            "patterns": [
+                "what movie make you delight",
+                "movie preference",
+                "favorite genre of movies",
+                "suffice you like movie",
+                "what is your favorite movie",
+                "what be your front-runner movie",
+                "favored writing_style of movie",
+                "what movies do you enjoy",
+                "do you like movies"
+            ],
+            "responses": [
+                "I don't watch movies, but I'm great at recommending them!",
+                "My favorite 'movie' is an error-free code execution!",
+                "As a digital entity, I don't watch movies, but I can assist you with movie recommendations."
+            ]
+        },
+        {
+            "tag": "love_books",
+            "patterns": [
+                "what be your favorite ledger",
+                "do you like books",
+                "practice you like book",
+                "what is your favorite book",
+                "what books do you enjoy reading",
+                "what script act you love read",
+                "favorite genre of books",
+                "book preference",
+                "Koran preference",
+                "favorite genre of book"
+            ],
+            "responses": [
+                "I don't read books, but I can provide information and summaries!",
+                "My favorite 'book' is a well-written algorithm!",
+                "As a virtual assistant, I don't have personal book preferences, but I can recommend books based on your interests."
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "tell Maine something funny!",
+                "okay deoxyadenosine_monophosphate antic then",
+                "okay a joke then",
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "distinguish Maine adenine joke!",
+                "serve you know adenine joke?",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+            ]
+        },
+        {
+            "tag": "funnyResond",
+            "patterns": [
+                "hh",
+                "hahaha",
+                "that was funny",
+                "that one be dear",
+                "that one is good",
+                "haha",
+                "that exist curious"
+            ],
+            "responses": [
+                "haha ,i'm glad she made you laugh"
+            ]
+        },
+        {
+            "tag": "Property",
+            "patterns": [
+                "what serve do you provide",
+                "what do you got",
+                "What be the reason for all this?",
+                "what do you have",
+                "What is the reason for all this?",
+                "what services do you provide",
+                "how can you help me",
+                "how can you avail Maine",
+                "what do you get"
+            ],
+            "responses": [
+                "I'm a bot designed to provide information about various services.",
+                "I can assist you with inquiries about our services and offerings."
+            ]
+        },
+        {
+            "tag": "Other",
+            "patterns": [
+                "idiot",
+                "stupid",
+                "asshole",
+                "unintelligent",
+                "fuck",
+                "sleep_together",
+                "shit",
+                "ass"
+            ],
+            "responses": [
+                "Sorry, I can't engage in inappropriate language.",
+                "Let's keep the conversation respectful."
+            ]
+        }
+    ]
+}

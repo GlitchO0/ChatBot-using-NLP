@@ -4,7 +4,7 @@ import json
 import torch
 from nltk_utlis import tokenize, bag_pf_words
 from model import NeuralNet
-
+nltk.download('punkt')
 app = Flask(__name__)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
